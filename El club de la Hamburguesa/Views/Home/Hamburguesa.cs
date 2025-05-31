@@ -6,8 +6,7 @@
         private String descripcion;
         private double precio;
 
-        public Hamburguesa(int id, string nombre, string descripcion, double precio)
-        {
+        public Hamburguesa(int id, string nombre, string descripcion, double precio) {
             this.id = id;
             this.nombre = nombre;
             this.descripcion = descripcion;
@@ -17,4 +16,6 @@
 
 
     }
+    public enum Bebida {cocaCola, agua, fanta, sprite, ninguna }
+
 }
